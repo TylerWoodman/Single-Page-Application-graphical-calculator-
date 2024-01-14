@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script defer src= "JavaScriptFileNEA.js"></script>
+    <link href="StyleSheetFileNEA.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Page Application</title>
+</head>
+<body>
+
+    <div class="homepage">
+        <h1>Home Page</h1>
+        <p> This is a single page application</p>
+        <p> For my graphical calculator + other mathmatical calculations</p>
+    </div>
+
+    <div class="graph-container">
+        <h2> Graph Section </h2>
+        <label for="equation_Input">Enter Equation: </label>
+        <input type="text" id="equation_Input" placeholder=" y = x * 2" />
+
+        <button onclick="plot_Graph()">Plot Graph</button>
+
+        <canvas id="graphCanvas" width="400" height="400" style="border: 1px solid #000;" ></canvas>
+    </div>
+
+   
+
+</body>
+</html>
